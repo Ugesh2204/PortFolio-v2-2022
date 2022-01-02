@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">  
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./assets/img/logo.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">Work</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Skill</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+            <div class="intro">
+                <h4 class="intro-welcome"> Hi, my name is</h4>
+                <h1 class="intro-name"> Ugesh Roopchand</h1>
+                <h1 class="intro-build ">I build things for the web</h1>
+                <p class="intro-text">I'am a front end developer specialising in building 
+                    website and application interfaces</p>
+                <div class="getintouch">
+                        <a href="#" class="btn btn-resume">Get in touch</a>
+                </div> 
+
+            </div>   
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="section-center">
+          <div class="built-title">
+              <h2>02.<span>Some Things I've built</span></h2>
+           </div>
+           <div class="row-built">
+              <div class="image">
+                  <img src="./assets/img/3.jpg" alt="">
+              </div>
+              <div class="content">
+                  <h4 class="featured-text">Feature Project</h4>
+                   <h3 class="project-title">Divine Experience</h3>
+                  <div class="description-box">
+                      <p class="inner-box">Implementing a nice UX/UI  with css grid layout 
+                          Implementing a nice UX/UI  with css grid layout
+                          Implementing a nice UX/UI  with css grid layout
+                          Implementing a nice UX/UI  with css grid layout
+                      </p>
+                  </div>
+                  <div class="social">
+                    <a href="#" class="icon-general"><i class="fab fa-github-square"></i></a>
+                    <a href="#" class="icon-general"><i class="fas fa-external-link-square-alt"></i></a>
+                 </div>
+              </div>
+          </div>
+      </div>
+      
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="tours" class="section">
+      <div class="title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; backroads travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
