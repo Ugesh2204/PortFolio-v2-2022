@@ -378,6 +378,19 @@ header {
   -webkit-flex-direction: row-reverse; 
   flex-direction: row-reverse;
 } 
+.line {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:4rem 0rem 4rem 0rem;
+}
+.line .hr-line {
+  height:2px;
+  width:50%;
+  background-color: var(--clr-primary-5);
+  border:0;
+  
+}
 
 .section-center .row-built {
   display:flex;
